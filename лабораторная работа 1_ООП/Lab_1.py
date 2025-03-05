@@ -107,7 +107,7 @@ class Pencil:
         if not length > 0:
             raise ValueError("Значение этого параметра должно быть больше нуля")
 
-        if not isinstance(sharpness, bool)
+        if not isinstance(sharpness, bool):
             raise TypeError("Значение этого параметра может принимать только значения типа true и false")
         self.length = length
         self.sharpness = sharpness
